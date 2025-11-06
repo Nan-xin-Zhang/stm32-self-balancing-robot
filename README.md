@@ -40,6 +40,7 @@ balance-car/
 ├── startup/              # MCU startup assembly file
 ├── doc/                  # Schematics, notes, and reference PDFs
 └── balance_car.uvprojx   # Keil uVision project file
+```
 
 
 
