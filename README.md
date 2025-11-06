@@ -32,13 +32,14 @@ The system reads attitude data from the **MPU6050 IMU**, performs **dual-loop PI
 
 ## 🧩 Software Architecture
 
+```text
 balance-car/
-├── user/ # Main application: PID, control loops, main.c
-├── my_lib/ # Drivers and reusable modules (PID, I2C, OLED, delay, etc.)
-├── std_periph_driver/ # STM32 official peripheral library
-├── startup/ # MCU startup assembly file
-├── doc/ # Schematics, notes, and reference PDFs
-└── balance_car.uvprojx # Keil uVision project file
+├── user/                 # Main application: PID, control loops, main.c
+├── my_lib/               # Drivers and reusable modules (PID, I2C, OLED, delay, etc.)
+├── std_periph_driver/    # STM32 official peripheral library
+├── startup/              # MCU startup assembly file
+├── doc/                  # Schematics, notes, and reference PDFs
+└── balance_car.uvprojx   # Keil uVision project file
 
 
 
