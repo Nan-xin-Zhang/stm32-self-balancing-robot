@@ -1,7 +1,8 @@
-# STM32 Self-Balancing Car (MPU6050 + PID Control)
+# 🤖 STM32 Self-Balancing Robot
+Embedded C | PID | IMU | Real-time Control | STM32F103C8T6 | Keil  
 
-This project implements a **two-wheel self-balancing robot** based on the **STM32F103C8T6** microcontroller.  
-The system reads attitude data from the **MPU6050 IMU**, performs **dual-loop PID control**, and drives DC motors through **PWM** to maintain dynamic balance.
+A two-wheel self-balancing robot using **STM32F103 MCU**, **MPU6050 IMU**, and **dual-loop PID control**.  
+Implements real-time angle stabilization and motor control through PWM and encoder feedback.
 
 ---
 
